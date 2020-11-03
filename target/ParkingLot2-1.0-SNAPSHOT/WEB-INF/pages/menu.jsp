@@ -7,6 +7,9 @@
 
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
+         <li class="nav-item ${activePage eq 'Cars' ? ' active' : ''}">
+          <a class="nav-link" href="${pageContext.request.contextPath}/Cars">Cars</a>
+      </li>
       <li class="nav-item ${pageContext.request.requestURI eq'/ParkingLot/about.jsp'?'active':''}">
         <a class="nav-link" href="${pageContext.request.contextPath}/about.jsp">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -24,6 +27,8 @@
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
+     
+      
     </ul>
 <!--    <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
