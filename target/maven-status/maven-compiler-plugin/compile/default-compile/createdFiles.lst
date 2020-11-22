@@ -1,2 +1,12 @@
 com\park\parkinglot2\JAXRSConfiguration.class
 com\park\parkinglot2\resources\JavaEE8Resource.class
+com\park\parking\servlet\EditCar.class
+com\park\parkinglot2\common\CarDetails.class
+com\park\parking\servlet\Cars.class
+com\park\parking\servlet\User.class
+com\park\parking\servlet\AddCar.class
+com\park\parkinglot2\entity\User.class
+com\park\parkinglot2\entity\ejb\CarBean.class
+com\park\parkinglot2\entity\Car.class
+com\park\parkinglot2\common\UserDetails.class
+com\park\parkinglot2\entity\ejb\UserBean.class

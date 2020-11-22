@@ -1,7 +1,7 @@
-Tue Nov 03 11:11:00 EET 2020 : Apache Derby Network Server - 10.14.2.0 - (1828579) started and ready to accept connections on port 1527
+Sat Nov 21 19:09:18 EET 2020 : Apache Derby Network Server - 10.14.2.0 - (1828579) started and ready to accept connections on port 1527
 ----------------------------------------------------------------
-Tue Nov 03 11:11:01 EET 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0175-8d5f-a147-fffff1a14dca 
+Sat Nov 21 19:09:57 EET 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0175-ebc7-fdf5-fffff1a14dca 
 on database directory C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\ParkingLot with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
 Loaded from file:/C:/Users/rocsy/GlassFish_Server/javadb/lib/derby.jar
 java.vendor=Oracle Corporation
@@ -12,10 +12,3 @@ os.arch=amd64
 os.version=10.0
 derby.system.home=C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2
 Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-Tue Nov 03 11:11:02 EET 2020:
-Shutting down instance a816c00e-0175-8d5f-a147-fffff1a14dca on database directory C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\ParkingLot with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
-Tue Nov 03 11:11:02 EET 2020 Thread[DRDAConnThread_3,5,main] (DATABASE = ParkingLot), (DRDAID = {2}), Database 'ParkingLot' shutdown.
-----------------------------------------------------------------
-Tue Nov 03 11:26:14 EET 2020: Shutting down Derby engine
-----------------------------------------------------------------
