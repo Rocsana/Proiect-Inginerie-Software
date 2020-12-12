@@ -31,6 +31,22 @@ public class UserBean {
 
    @PersistenceContext
     private EntityManager em;
+   
+   public void createUser(String username, String email, String passwordSha256, String position){
+       User user = new User ();
+       user.setUsername(username);
+       user.setEmail(email);
+       user.setPassword(passwordSha256);
+       user.setPosition(position);
+       
+       em.persist(user);
+   }
+   
+   
+    public UserDetails findById(Integer userId) {
+       User user=em.find(User.class, userId);
+       return new UserDetails(user.getId(), user.getUsername(), user.getEmail(), user.getPosition());
+   }
 
     public List<UserDetails> getAllUsers() { 
         LOG.info("getAllUsers"); 
