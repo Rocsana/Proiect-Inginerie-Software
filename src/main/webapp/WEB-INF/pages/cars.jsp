@@ -31,7 +31,12 @@
             <div class="col-md-3">
                 <a class="btn btn-secondary" href="${pageContext.request.contextPath}/EditCar?id=${car.id}" role="button">Edit Car</a>
             </div>
-            
+            <div class="col-md-2">
+                <a class="btn btn-secondary" href="${pageContext.request.contextPath}/Cars/AddPhoto?id=${car.id}" role="button">Add Photo</a>
+            </div>
+             <div class="col-md-2">
+                <a class="btn btn-secondary" href="${pageContext.request.contextPath}/Cars/Update?id=${car.id}" role="button">Edit Photo</a>
+            </div>
         </div>
     </c:forEach>
     

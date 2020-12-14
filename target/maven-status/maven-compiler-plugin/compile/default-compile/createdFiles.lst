@@ -1,9 +1,14 @@
+com\park\parkinglot2\entity\Photo.class
 com\park\parkinglot2\JAXRSConfiguration.class
 com\park\parking\servlet\Login.class
 com\park\parkinglot2\resources\JavaEE8Resource.class
 com\park\parking\servlet\EditCar.class
 com\park\parkinglot2\common\CarDetails.class
+com\park\parking\servlet\AddPhoto.class
 com\park\parking\servlet\Cars.class
+com\park\parkinglot2\services\AbstractFacade.class
+com\park\parkinglot2\services\UserFacadeREST.class
+com\park\parkinglot2\entity\ejb\InvoiceBean.class
 com\park\parkinglot2\util\PasswordUtil.class
 com\park\parking\servlet\Logout.class
 com\park\parking\servlet\User.class

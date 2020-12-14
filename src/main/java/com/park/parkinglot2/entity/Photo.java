@@ -6,82 +6,66 @@
 package com.park.parkinglot2.entity;
 
 import java.io.Serializable;
-import java.util.Collection;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlTransient;
 
 /**
  *
  * @author rocsy
  */
 @Entity
-@Table (name="USERS")
-@XmlRootElement
-public class User implements Serializable {
+@Table(name="PHOTOS")
+public class Photo implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     
-    private String username;
+    private String filename;
 
-    public String getUsername() {
-        return username;
+    public String getFilename() {
+        return filename;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setFilename(String filename) {
+        this.filename = filename;
     }
 
-    public String getEmail() {
-        return email;
+    public String getFileType() {
+        return fileType;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setFileType(String fileType) {
+        this.fileType = fileType;
     }
 
-    public String getPassword() {
-        return password;
+    public byte[] getFileContent() {
+        return fileContent;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setFileContent(byte[] fileContent) {
+        this.fileContent = fileContent;
     }
 
-    public String getPosition() {
-        return position;
+    public Car getCar() {
+        return car;
     }
 
-    public void setPosition(String position) {
-        this.position = position;
+    public void setCar(Car car) {
+        this.car = car;
     }
-
-    @XmlTransient
-    public Collection<Car> getCars() {
-        return cars;
-    }
-
-    public void setCars(Collection<Car> cars) {
-        this.cars = cars;
-    }
+    private String fileType;
+    private byte[] fileContent;
     
-    private String email;
-    
-    private String password;
-    
-    private String position;
-    
-    @OneToMany(mappedBy = "user")
-    
-    private Collection<Car> cars;
+    @OneToOne
+    @JoinColumn(name = "CAR_KEY")
+    private Car car;
 
     public Integer getId() {
         return id;
@@ -101,10 +85,10 @@ public class User implements Serializable {
     @Override
     public boolean equals(Object object) {
         // TODO: Warning - this method won't work in the case the id fields are not set
-        if (!(object instanceof User)) {
+        if (!(object instanceof Photo)) {
             return false;
         }
-        User other = (User) object;
+        Photo other = (Photo) object;
         if ((this.id == null && other.id != null) || (this.id != null && !this.id.equals(other.id))) {
             return false;
         }
@@ -113,7 +97,7 @@ public class User implements Serializable {
 
     @Override
     public String toString() {
-        return "com.park.parkinglot2.entity.User[ id=" + id + " ]";
+        return "com.park.parkinglot2.entity.Photo[ id=" + id + " ]";
     }
     
 }

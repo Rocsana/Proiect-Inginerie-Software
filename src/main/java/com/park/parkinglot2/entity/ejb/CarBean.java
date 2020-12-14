@@ -7,6 +7,7 @@ package com.park.parkinglot2.entity.ejb;
 
 import com.park.parkinglot2.common.CarDetails;
 import com.park.parkinglot2.entity.Car;
+import com.park.parkinglot2.entity.Photo;
 import com.park.parkinglot2.entity.User;
 import java.util.ArrayList;
 import java.util.List;
@@ -34,6 +35,20 @@ public class CarBean {
 
    @PersistenceContext
     private EntityManager em;
+   
+   public void addPhotoToCar (Integer carId, String filename, String fileType, byte[] fileContent) {
+     LOG.info("addPhotoToCar");
+     Photo photo = new Photo();
+     photo.setFilename(filename);
+     photo.setFileType(fileType);
+     photo.setFileContent(fileContent);
+   
+     Car car = em.find(Car.class, carId);
+     car.setPhoto(photo);
+   
+     photo.setCar(car);
+     em.persist(photo);
+   }
    
    public CarDetails findById(Integer carId) {
        Car car=em.find(Car.class, carId);
