@@ -10,11 +10,13 @@ C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\par
 C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parkinglot2\entity\User.java
 C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parkinglot2\common\CarDetails.java
 C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parking\servlet\AddUser.java
+C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parkinglot2\common\PhotoDetails.java
 C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parkinglot2\entity\Car.java
 C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parking\servlet\Logout.java
 C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parkinglot2\entity\ejb\CarBean.java
 C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parking\servlet\EditCar.java
 C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parkinglot2\services\AbstractFacade.java
+C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parking\servlet\Photos.java
 C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parking\servlet\Cars.java
 C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parkinglot2\entity\Photo.java
 C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\src\main\java\com\park\parking\servlet\AddPhoto.java

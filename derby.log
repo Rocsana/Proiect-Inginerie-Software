@@ -1,7 +1,7 @@
-Mon Dec 14 07:56:41 EET 2020 : Apache Derby Network Server - 10.14.2.0 - (1828579) started and ready to accept connections on port 1527
+Fri Jan 08 16:13:50 EET 2021 : Apache Derby Network Server - 10.14.2.0 - (1828579) started and ready to accept connections on port 1527
 ----------------------------------------------------------------
-Mon Dec 14 07:57:29 EET 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0176-5fd2-7531-fffff1a14dca 
+Fri Jan 08 16:14:40 EET 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0176-e258-977a-fffff1a14dca 
 on database directory C:\Users\rocsy\Documents\NetBeansProjects\ParkingLot2\ParkingLot with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
 Loaded from file:/C:/Users/rocsy/GlassFish_Server/javadb/lib/derby.jar
 java.vendor=Oracle Corporation
